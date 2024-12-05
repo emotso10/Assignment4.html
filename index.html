@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CE Course Evaluation Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="https://my.centennialcollege.ca"><img src="logo.gif" alt="College Logo"></a>
+  </header>
+ 
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Course Information</legend>
+        <label for="courseName">Course Name:</label><br>
+        <input type="text" id="courseName" name="courseName"><br><br>
+       
+        <label for="instructor">Instructor:</label><br>
+        <input type="text" id="instructor" name="instructor"><br><br>
+       
+        <label for="courseCode">Course Code:</label><br>
+        <input type="text" id="courseCode" name="courseCode"><br><br>
+      </fieldset>
+     
+      <fieldset>
+        <legend>Evaluation</legend>
+        <label for="knowledge">Instructor Knowledge:</label>
+        <select id="knowledge" name="knowledge">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+          <option value="not-satisfactory">Not Satisfactory</option>
+        </select><br><br>
+
+        <label for="helpfulness">Instructor Helpfulness:</label>
+        <select id="helpfulness" name="helpfulness">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+          <option value="not-satisfactory">Not Satisfactory</option>
+        </select><br><br>
+
+        <label for="courtesy">Instructor Courtesy and Respect for Students:</label>
+        <select id="courtesy" name="courtesy">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+          <option value="not-satisfactory">Not Satisfactory</option>
+        </select><br><br>
+
+        <label for="communication">Instructor Communication Skills:</label>
+        <select id="communication" name="communication">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+          <option value="not-satisfactory">Not Satisfactory</option>
+        </select><br><br>
+
+        <label for="material">Course Material:</label>
+        <select id="material" name="material">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+          <option value="not-satisfactory">Not Satisfactory</option>
+        </select><br><br>
+
+        <label for="expectations">Expectations:</label>
+        <select id="expectations" name="expectations">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+          <option value="not-satisfactory">Not Satisfactory</option>
+        </select><br><br>
+        
+        <label for="survey">Would you recommend this course to others?</label><br>
+        <input type="radio" id="recommend-yes" name="recommend" value="yes">
+        <label for="recommend-yes">Yes</label><br>
+        <input type="radio" id="recommend-no" name="recommend" value="no">
+        <label for="recommend-no">No</label><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+      </fieldset>
+     
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+       
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+      </fieldset>
+     
+      <input type="submit" value="Submit Evaluation">
+      <input type="reset" value="Clear All Fields">
+    </form>
+  </main>
+</body>
+</html>
